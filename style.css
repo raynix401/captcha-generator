@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;700&family=Poppins:wght@400;700;900&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  background: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
+    url(/background.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.chaptcha-container {
+  background-color: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 0 40px rgba(32, 31, 43, 0.6);
+  max-width: 350px;
+  text-align: center;
+  margin: 150px auto;
+  padding: 2rem;
+  border-radius: 25px;
+}
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+.chaptcha-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.submit-box {
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+}
+::placeholder {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #fff;
+}
+input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  width: 80%;
+}
+input:focus {
+  outline: none;
+}
+.copy-btn {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.copy-btn:hover {
+  color: rgba(255, 241, 241, 0.927);
+}
+.generator-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.refresh-btn {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  /* background-color: rgba(255, 255, 255, 0.13); */
+  width: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.refresh-btn:hover {
+  color: rgba(255, 241, 241, 0.927);
+}
+.chaptcha-btn {
+  margin-top: 15px;
+  text-transform: uppercase;
+  width: 70%;
+  border-radius: 5px;
+  border: none !important;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: #fff;
+  margin: 20px auto 0 auto;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.submit-btn {
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none !important;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  letter-spacing: 0.2rem;
+  font-size: 10px;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+
+.submitting-box {
+  background-color: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 0 40px rgba(32, 31, 43, 0.6);
+  max-width: 350px;
+  text-align: center;
+  margin: 250px auto;
+  padding: 2rem;
+  border-radius: 25px;
+}
+.ok-btn{
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none !important;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    letter-spacing: 0.2rem;
+    font-size: 10px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+.chaptcha-btn:hover,
+.submit-btn:hover,.ok-btn:hover {
+  color: black;
+  background-color: #f0e7e7;
+}
+.hide-box{
+    display: none;
+}
